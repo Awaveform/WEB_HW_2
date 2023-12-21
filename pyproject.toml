@@ -18,6 +18,3 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 assistant = "bot_assistant_mx.__main__:main"
-
-[project.scripts]
-ass = "bot_assistant_mx.__main__:main"
