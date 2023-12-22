@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "bot_assistant_mx"
+name = "bot_assistant_mx2"
 version = "0.0.1"
 description = ""
 authors = ["antonii <antonii.illarionov@gmail.com>"]
@@ -7,7 +7,6 @@ readme = "README.MD"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.3"
@@ -17,4 +16,4 @@ requires = ["poetry-core>=1.8.1"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-assistant = "bot_assistant_mx.__main__:main"
+assistant = "bot_assistant_mx2.__main__:main"
